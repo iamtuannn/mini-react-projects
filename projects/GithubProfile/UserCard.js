@@ -11,7 +11,7 @@ export default function UserCard() {
   return (
     <>
       {!isError && (
-        <div className=" bg-box-00 rounded-xl mt-4 p-4 w-full">
+        <div className=" bg-box-00 rounded-xl mt-4 p-4 w-full animate-fade-in">
           <div className=" grid gap-4 grid-cols-1 md:grid-cols-2">
             <div className=" flex gap-4 order-1">
               <div className=" h-20 w-20 rounded-full overflow-hidden">
