@@ -1,8 +1,5 @@
-import Head from "next/head";
-import Image from "next/image";
 import Link from "next/link";
 import MyHead from "../components/MyHead";
-import styles from "../styles/Home.module.css";
 import { projects } from "../utils/config";
 
 export default function Home() {
