@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-display font-yanone-kaffeesatz text-xl ;
+  }
+
+  p {
+    @apply text-[1.2rem] md:text-[1.5rem];
+  }
+}
+
+@layer components {
+  .switch-theme {
+    @apply w-12 h-12 bg-transparent flex items-center justify-center border border-base-color-01 border-solid rounded-full;
+  }
+
+  .display-transition-color {
+    @apply transition-all duration-[0.4s];
+  }
+
+  .switch-theme svg {
+    @apply w-7 h-7 text-base-color-00 transition-all duration-500 animate-fade-in;
+  }
+
+  .project-box {
+    @apply min-h-screen mx-auto flex-center text-base-color-00 flex-col p-4;
+  }
+
+  .border-base {
+    @apply border border-solid border-base-color-01;
+  }
+
+  .flex-center {
+    @apply flex items-center justify-center;
+  }
+}
