@@ -24,6 +24,10 @@ html {
   --warning-color: #f80; */
 }
 
+.progress-bar {
+  background: var(--danger-color) !important;
+}
+
 @keyframes fade-in {
   0% {
     opacity: 0;
