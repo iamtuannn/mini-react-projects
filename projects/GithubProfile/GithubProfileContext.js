@@ -23,7 +23,7 @@ const GithubProfileProvider = ({ children }) => {
         );
 
         const repos = await axios.get(
-          `https://api.github.com/users/${username}/repos?sort=updated`
+          `https://api.github.com/users/${username}/repos?sort=pushed`
         );
 
         setUser({ info: info.data, repos: repos.data });
